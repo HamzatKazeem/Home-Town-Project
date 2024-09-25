@@ -1,18 +1,19 @@
 body {
     color: #ffffff;
     margin: 0;
-   text-align: center;
+    text-align: center;
     font-family: "Orbitron", sans-serif;
     background-color: #466365;
     font-size: 100px;
 }
 
 #bg-image {
+    width: 100%;
     background-image: url("./Images/Sheffield.jpg");
     background-size: cover;
     padding: 0;
     margin:0;
-    height: 2200px;
+    height: 2000px;
  }
 
  h1 {
@@ -24,27 +25,43 @@ body {
     border-bottom: 4px solid white;
 }
 
-.middle-banner { 
-display: flex;
-}
-
-.middle-banner-size{
-    width: 75%;
-    height: auto;
-    border: 0px solid white ;
-    margin-top: 0;
+#text-below-bgimage{
+    height: 30px;
+    background-color: black;
     padding: 0;
 }
 
+.middle-banner{ 
+display: flex;
+
+
+}
+
+.middle-banner-size-video{ 
+    width: 100%;
+    height: auto;
+    border: 2px solid white ;
+    margin-top: 0;
+    padding:0;
+    border-radius: 25px;
+    }
+
+
+.event-in-sheffield{
+    border: 2px solid white ;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 10px;
+
+}
 .container {
     position: relative;
-    width: 30%;
     height: auto;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    padding-bottom: 14.75%;
-    position: relative;
+    background: none;
+   
   }
   
   .responsive-iframe{
@@ -53,13 +70,85 @@ display: flex;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    width: 151%;
+    height: 103%;
+    border: none;
+    padding: 0%;
+  
   }
-#footer{
-    width: 100%;
-    height: 320px;
-    border: 0px solid white ;
-    background-color: #222222;
+
+h2 {
+    font-weight: bold;
+    font-size: 98px;
+    text-shadow: -5px -5px 4px black;
+    margin: 0;
+}
+    
+h3{
+    margin:0;
+    font-size: 80px;
+    color: yellow;
 }
 
+img{
+    height: 800px;
+}
+#education{
+    width: 1200px;
+
+}
+
+#experience{
+    color: #466365;
+    background-image: url("./Images/Outdoor.jpg");
+    background-size: cover;
+}
+
+#footer{
+    display: flex;
+    text-align: left;
+    padding: 10px 0 0 300px;
+    height: 200px;
+    font-size: 80px;
+    border: 0px solid white ;
+    background-color: #222222;
+    color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.newsletter{
+    width: 1500px;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0.5px solid #222222;
+    border-radius: 24px;
+}
+
+.footer-image{
+    width: 100px;
+        height: 100px;
+}
+#btn{
+    width: 600px;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0.5px solid #222222;
+    border-radius: 24px;
+}
+
+.social-medial-handle{
+    text-align: right;
+    padding: 20px 150px;
+    }
+    
